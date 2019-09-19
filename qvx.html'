@@ -1,0 +1,61 @@
+<html>
+<head>
+<title>
+1710991019
+</title>
+</head>
+<body onload=fun2() onunload=fun1()>
+<input type="button" value="yellow" onclick=fun() onmouseover=fun1() onmouseout=fun2() onblur=fun2() ondblclick=fun3() >
+<br><br>
+<form onreset=fun6() onsubmit=fun7()>
+Select color:<select id="myselect" onchange=fun5() onfocus=fun1()>
+<option value="red">Red
+<option value="blue">Blue
+<option value="green">Green
+</select>
+<br><br>
+<input type="text" onkeydown=fun1() onkeyup=fun() onkeypress=fun3() onselect=fun4()></input>
+<br><br>
+<input type="reset" value="Reset"></input>
+<input type="submit" value="Submit"></input>
+</form>
+<img src="C:\Users\DELL\Desktop\abstract-anonymous-question-mark-planet-blue-wings-black-background.jpg" width="700px" height="400px" onmousedown=fun1()
+onmouseup=fun2() onmousemove=fun() onmouseout=fun2()  onabort=fun4()>
+<script lang="javascript">
+function fun()
+ {
+  document.body.style.backgroundColor="yellow"; 
+ }
+function fun1()
+ {
+  document.body.style.backgroundColor="red"; 
+ } 
+function fun2()
+ {
+
+ document.body.style.backgroundColor="white"; 
+ }  
+function fun3()
+ {
+  document.body.style.backgroundColor="blue"; 
+ }  
+function fun4()
+ {
+  alert("You selected some text");	
+ }
+function fun5()
+ {
+  var x=document.getElementById('myselect').value;
+  document.body.style.backgroundColor=x; 
+ } 
+function fun6()
+ {
+  alert("Your data is not saved");	
+ } 
+function fun7()
+ {
+  alert("Your data is saved");	
+ }  
+</script>
+<body>
+</html>
